@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Fax Seguridad</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>		
+	</head>
+	<script>
+		$(document).ready(function(){
+		// Add smooth scrolling to all links in navbar + footer link
+		$(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+		// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== "") {
+
+		// Prevent default anchor click behavior
+		event.preventDefault();
+
+		// Store hash
+		var hash = this.hash;
+
+		// Using jQuery's animate() method to add smooth page scroll
+		// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+		$('html, body').animate({
+		scrollTop: $(hash).offset().top
+		}, 900, function(){
+
+		// Add hash (#) to URL when done scrolling (default click behavior)
+		window.location.hash = hash;
+		});
+		} // End if
+		});
+		})
+	</script>
+	<body>
+<!-- Navbar -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+					</button>
+					<a class="navbar-brand" href="#">Logo</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#about">LA EMPRESA</a></li>
+						<li><a href="#servicios">SERVICIOS</a></li>
+						<li><a href="#trabajos">TRABAJOS REALIZADOS</a></li>
+						<li><a href="#ofertas">OFERTAS</a></li>
+						<li><a href="#contacto">CONTACTO</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+<!-- Header --> 
+		<div class="jumbotron text-center">
+			<h1>FAX Seguridad</h1>
+			<p>Instalación de Sistemas de Seguridad</p> 
+		</div>
+
+<!-- Presentacion -->
+		<div id="about" class="container-fluid">
+			<div class="row">
+				<div class="col-sm-8">
+					<h2>Acerca de nosotros</h2>
+					<h4>Calidad y confianza</h4> 
+					<p>Somos una empresa fundada en 1992 especializada en la instalación y mantenimiento de cámaras CCTV, sistemas de seguridad integral, porteros eléctricos de consorcio y privados, e instalación de redes y centrales telefónicas. Tenemos una vasta experiencia con empresas de la cuidad de Mar del Plata y una gran cantidad de clientes satisfechos que avalan nuestro trabajo. Nuestra prolijidad y confianza nos han llevado a realizar trabajos en las zonas mas prestigiosas de la ciudad y empresas de gran reputación. Actualmente trabajamos en varias localidades de la costa atlantica incluyendo Miramar, Santa Clara del Mar, Mar Chiquita, Carilo, Mar de las Pampas y Villa Gesell</p>
+				</div>
+				<div class="col-sm-4">
+					 <span class="glyphicon glyphicon-signal logo"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid bg-grey">
+			<div class="row">
+				<div class="col-sm-4">
+					<span class="glyphicon glyphicon-globe logo"></span> 
+				</div>
+				<div class="col-sm-8">
+					<h2>Nuestros valores</h2>
+					<p><strong>MISION:</strong> Apuntamos a brindar el mejor servicio para el confort de nuestros clientes y satisfacer las necesidades de sus preocupaciones de seguridad con nuestra gran experiencia en el rubro. Nos orientamos a formar vinculos de trabajo sólidos para fortalecer la confianza que ofrecemos. </p> 
+					<p><strong>VISION:</strong> Sentirnos orgullosos de lo que hacemos.</p>
+				</div>
+			</div>
+		</div>
+<!-- Servicios -->
+		<div id="servicios" class="container-fluid text-center">
+			<h2>SERVICIOS</h2>
+			<h4>Instalaciones de Sistemas de Seguridad</h4>
+			<br>
+			<div class="row">
+				<div class="col-sm-4 bg-grey">
+					<img class="servicio" src="images/random0.jpg"> 
+					<h4>Sistemas de Vigilancia CCTV</h4>
+				<button type="button" class="btn btn-secondary btn-square" href="cctv.html">VER MÁS</button>
+				</div>
+				<div class="col-sm-4 bg-white">
+					<img class="servicio" src="images/teclado0.jpg"> 
+					<h4>Sistemas de Seguridad</h4>
+				<button type="button" class="btn btn-secondary btn-square" href="cctv.html">VER MÁS</button>
+				</div>
+				<div class="col-sm-4 bg-grey">
+					<img class="servicio" src="images/huella0.jpg"> 
+					<h4>Control de Accesos</h4>
+					<button type="button" class="btn btn-secondary btn-square" href="cctv.html">VER MÁS</button>
+				</div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-sm-4 bg-grey">
+					<img class="servicio" src="images/dahua2.jpg"> 
+					<h4>Porteros Eléctricos</h4>
+					<button type="button" class="btn btn-secondary btn-square" href="cctv.html">VER MÁS</button>
+				</div>
+				<div class="col-sm-4 bg-white">
+					<img class="servicio" src="images/red3.jpg"> 
+					<h4>Centrales telefónicas y Redes</h4>
+					<button type="button" class="btn btn-secondary btn-square" href="cctv.html">VER MÁS</button>
+				</div>
+				<div class="col-sm-4 bg-grey">
+					<img class="servicio" src="images/barrera1.jpg"> 
+					<h4>Barreras de Acceso</h4>
+					<button type="button" class="btn btn-secondary btn-square" href="cctv.html">VER MÁS</button>
+				</div>
+			</div>
+		</div>
+<!-- Trabajos --
+		<div class="container-fluid text-center bg-grey">
+			<h2>CLIENTES</h2>
+			<h4>Trabajos realizados</h4>
+			<div class="row text-center">
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="paris.jpg" alt="Paris">
+						<p><strong>Procosud</strong></p>
+						<p>Instalación de circuito de vigilancia</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="thumbnail">
+					<img src="newyork.jpg" alt="New York">
+					<p><strong>New York</strong></p>
+					<p>We built New York</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="sanfran.jpg" alt="San Francisco">
+					<p><strong>San Francisco</strong></p>
+					<p>Yes, San Fran is ours</p>
+				</div>
+			</div>
+		</div>
+		>
+<!-- Ofertas -->
+		<div id="ofertas" class="container-fluid">
+			<div class="text-center">
+				<h2>OFERTAS</h2>
+				<h4>Aprovecha nuestras ofertas!</h4>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="panel panel-default text-center">
+						<div class="panel-heading">
+							<h1>KIT Alarma</h1>
+						</div>
+						<div class="panel-body">
+							
+							<img class="servicio" src="images/alarma1.jpg">
+							<p><strong>2</strong> Sensores de movimiento (PIR)</p>
+							<p><strong>1</strong> Teclado</p>
+							<p><strong>1</strong> Sirena externa</p>
+							<p><strong>1</strong> Sirena interior</p>
+							<p><strong>1</strong> Sirena externa</p>
+							<p><strong>1</strong> Central</p>
+							<p><strong>1</strong> LED</p>
+							<p><strong>+</strong> Cableado y conexión</p>
+						</div>
+						<div class="panel-footer">
+							<h3>$7500</h3>							
+							<button class="btn btn-lg">Pedir</button>
+						</div>
+					</div> 
+				</div> 
+				<div class="col-sm-4">
+					<div class="panel panel-default text-center">
+						<div class="panel-heading">
+							<h1>KIT Cámaras</h1>
+						</div>
+						<div class="panel-body">
+							<img class="servicio" src="images/kithv0.jpg">
+							<p><strong>4</strong> Cámaras domo o bullet</p>
+							<p><strong>1</strong> DVR</p>
+							<p><strong>1</strong> HD Purple 1TB</p>
+							<p><strong>4</strong> Balunes y conectores</p>
+							<p><strong>1</strong> Fuente 12v</p>
+							<p><strong>50</strong> mts de cable UTP</p>
+							<p><strong>+</strong> Configuración de 10 télefonos para ver online</p>
+							<p><strong>+</strong> Instalación, conexión y configuración</p>							
+						</div>
+						<div class="panel-footer">
+							<h3>$15000</h3>
+							<button class="btn btn-lg">Pedir</button>
+						</div>
+					</div> 
+				</div> 
+				<div class="col-sm-4">
+					<div class="panel panel-default text-center">
+						<div class="panel-heading">
+							<h1>KIT Acceso</h1>
+						</div>
+						<div class="panel-body">
+							<img class="servicio" src="images/kitacceso0.jpg">
+							<p><strong>1</strong> Teclado numérico con lector de tags</p>
+							<p><strong>10</strong> Tags</p>
+							<p><strong>1</strong> Cerradura eléctrica</p>
+							<p><strong>1</strong> Botón de salida</p>
+							<p class="pad"><strong>1</strong> Fuente 12v</p>
+							
+						</div>
+						<div class="panel-footer">
+							<h3>$7500</h3>							
+							<button class="btn btn-lg">Pedir</button>
+						</div>
+					</div> 
+				</div> 
+			</div>
+		</div>
+ <!-- Contacto -->
+		<form id="contacto" class="container-fluid bg-grey" target="_blank" action="https://formspree.io/your@email.com" method="POST">
+			<h2 class="text-center">CONTACTO</h2>
+			<div class="row">
+				<div class="col-sm-5">
+					<p>Escribinos</p>
+					<p><span class="glyphicon glyphicon-map-marker"></span> Mar del Plata, BA</p>
+					<p><span class="glyphicon glyphicon-phone"></span> 223 5194444</p>
+					<p><span class="glyphicon glyphicon-envelope"></span> federiconrivero@gmail.com</p> 
+				</div>
+				<div class="col-sm-7">
+					<div class="row">
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+						</div>
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+						</div>
+					</div>
+					<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+					<div class="row">
+						<div class="col-sm-12 form-group">
+							<button class="btn btn-default pull-right" type="submit" value="Send">Send</button>
+						</div>
+					</div> 
+				</div>
+			</div>
+		</form>
+		
+	
+<!-- Footer -->
+		<footer class="container-fluid text-center">
+			<a href="#myPage" title="To Top">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+			</a>
+			<p>Fax Seguridad</p> 
+		</footer>
+
+	</body>
+</html>
