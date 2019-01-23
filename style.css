@@ -93,7 +93,7 @@
   color: #fff;
 }
 
-.navbar {
+.navbara {
   margin-bottom: 0;
   background-color: #f4511e;
   z-index: 9999;
@@ -104,7 +104,7 @@
   border-radius: 0;
 }
 
-.navbar li a, .navbar .navbar-brand {
+.navbara li a, .navbar .navbar-brand {
   color: #fff !important;
 }
 
