@@ -1,5 +1,4 @@
 
-
 .bg-grey {
   background-color: #f6f6f6;
 }
@@ -8,20 +7,27 @@
 }
 
 .jumbotron {
-  background-color: #8E817E;
-  color: #fff;
-  padding: 100px 25px;
+  background-color: #CDC9C9;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+
 }
+
+.logot {
+	width: 35px;
+	height:40px;
+	margin: 0;
+	margin-top: 5px;
+	padding: 0;
+}
+
 
 .container-fluid {
   padding: 60px 50px;
 }
 
 
-
-.logo {
-  font-size: 200px;
-}
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
@@ -225,22 +231,3 @@ h4 {
 .pad {
 	padding-bottom: 90px;
 }
-/*.btn-square:after {
-  content: "";
-  background: #000000;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px!important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s
-}
-
-.btn-square:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
-}*/
