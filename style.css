@@ -259,6 +259,13 @@ hr {
 }
 .brand-margin {
 	margin-left: 15%;
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    .brand-margin {
+	    margin-left: 0 !important;
+	    position:fixed !important;
+	    }
+}
+
 }
 .margin-top-0 {
 	margin-top: -15% !important;
