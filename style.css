@@ -260,9 +260,9 @@ hr {
 .brand-margin {
 	margin-left: 15%;
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
-    .brand-margin {
+    .brand-fixed {
 	    margin-left: 0 !important;
-	    position:fixed !important;
+	    position:absolute !important;
 	    }
 }
 
