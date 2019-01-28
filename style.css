@@ -83,7 +83,12 @@ hr {
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
-    margin: 25px 0;
+  margin: 25px 0;}
+    .col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
 	/* imagenes */
 .servicio {
 	
@@ -95,18 +100,21 @@ hr {
 	
 	width: 250px;
 	height: 250px;
+	position:absolute;
 	text-align: center;
     margin: 25px 0;
 }
 
 .cctv {
 	width: 100%;
+	position:absolute;
 	text-align: center;
     margin: 25px 0;
 	
 }
 .cctv-i{
 	width: 60%;	
+	position:absolute;
 	text-align: center;
     margin: 25px 0;
 }
