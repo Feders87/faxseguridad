@@ -83,12 +83,8 @@ hr {
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
-  margin: 25px 0;}
-    .col-md-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
-  }
+  margin: 0px 0;}
+  
 	/* imagenes */
 .servicio {
 	
@@ -102,37 +98,37 @@ hr {
 	height: 250px;
 	position:absolute;
 	text-align: center;
-    margin: 25px 0;
+    margin: 0px 0;
 }
 
 .cctv {
 	width: 100%;
 	position:absolute;
 	text-align: center;
-    margin: 25px 0;
+    margin: 0px 0;
 	
 }
 .cctv-i{
 	width: 60%;	
 	position:absolute;
 	text-align: center;
-    margin: 25px 0;
+    margin: 0px 0;
 }
 
 .prod-margin-top-1 {
-	margin-top: 20%;
+	margin-top: 0%;
 	text-align: center;
-    margin: 25px 0;
+    margin: 0px 0;
 }
 .prod-margin-top {
-	margin-top: 40%;
+	margin-top: 0%;
 	text-align: center;
-    margin: 25px 0;
+    margin: 0px 0;
 }
 .prod-margin {
-	margin-left: 20%;
+	margin-left: 0%;
 	text-align: center;
-    margin: 25px 0;
+    margin: 0px 0;
 }
 
 .text-margin {
@@ -141,20 +137,20 @@ hr {
     margin: 25px 0;
 }
 .brand-margin {
-	margin-left: 15%;
+	margin-left: 0%;
 	text-align: center;
-    margin: 25px 0;
+    margin: 0px 0;
 }
 .margin-top-0 {
-	margin-top: -15% !important;
+	margin-top: 0% !important;
 	text-align: center;
-    margin: 25px 0;
+    margin: 0px 0;
 }
 
 .monitoreo {
 	width: 35%;
 	text-align: center;
-    margin: 25px 0;
+    margin: 0px 0;
   }
   .btn-square { 
   position: absolute;
