@@ -28,27 +28,7 @@ hr {
 	width: 100% !important;
 	margin-top: 50%;
 }
-.vl-left {
-  border-left: 1px solid;
-  border-color: #f4511e;
-  height: 1369px;
-  position: absolute;
-  left: 30%;
-  margin-top: 476px;
-  margin-left: 60px;
-  top: 0;
-}
 
-.vl-right {
-  border-left: 1px solid;
-  border-color: #f4511e;
-  height: 1369px;
-  position: absolute;
-  right: 30%;
-  margin-top: 476px;
-  margin-right: 60px;
-  top: 0;
-}
 }
 .bg-grey {
   background-color: #f6f6f6 !important;  
@@ -73,6 +53,14 @@ hr {
 	margin: 0;
 	margin-top: 5px;
 	padding: 0;
+}
+
+.container-vert {
+	display: inline-block;
+	width: 40% ;
+	align-items: center;
+	
+	
 }
 
 .container-fluid {
