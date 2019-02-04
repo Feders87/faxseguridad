@@ -33,8 +33,25 @@ hr {
 .bg-grey {
   background-color: #f6f6f6 !important;
   width: 100%;  
- 
 }
+
+
+@media screen and (max-width: 800px) {
+  .bg-grey {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+/*/
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+}
+/*/
+
 .bg-white {
 	background-color: #E4EDED;
 	
@@ -256,6 +273,10 @@ hr {
 	    position:absolute !important;
 	    }
 }
+
+
+
+
 
 }
 .margin-top-0 {
