@@ -155,7 +155,7 @@ hr {
 }
 
 @media only screen and (max-width: 800px) {
-  .panel-footer .btn {
+  .btn-lg {
     float: none;
 
   }
