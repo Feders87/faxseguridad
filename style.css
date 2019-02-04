@@ -254,6 +254,11 @@ hr {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  ul li {
+    display: none;
+  }
+}
 
 .productos {
 	
