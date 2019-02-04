@@ -288,17 +288,22 @@ hr {
 	margin-left: 30%;
 }
 .brand-margin {
-	margin-left: 15%;
+	margin-left: 23rem;
 }
 
-@media only screen and (max-width: 800px) {
-  .brand-margin .brand-fixed {
+.brand-btn-margin {
+  margin-left: 30rem;
+}
+
+
+/*/@media only screen and (max-width: 800px) {
+  .brand-margin .brand-btn-margin {
     float: none;
     margin: 0;
   }
 }
 
-
+/*/
 
 
 
